@@ -1,13 +1,9 @@
 sudo: required
 language: android
-jdk: oraclejdk8
+jdk: oraclejdk11
 dist: trusty
 
 android:
-  licenses:
-    - 'android-sdk-preview-license-.+'
-    - 'android-sdk-license-.+'
-    - 'google-gdk-license-.+'
   components:
     - tools
     - build-tools-30.0.2
