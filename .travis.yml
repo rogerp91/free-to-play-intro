@@ -1,7 +1,7 @@
 language: android
 dist: trusty
 sudo: required
-jdk: oraclejdk8
+jdk: oraclejdk11
 env:
   global:
     - ANDROID_API_LEVEL=30
