@@ -16,6 +16,7 @@ android:
 before_install:
   - chmod +x gradlew
   - touch $HOME/.android/repositories.cfg
+  - yes | sdkmanager --licenses
   - yes | sdkmanager "platforms;android-32"
   - yes | sdkmanager "build-tools;32.0.0"
 before_cache:
